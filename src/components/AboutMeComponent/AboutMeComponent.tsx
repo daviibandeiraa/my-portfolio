@@ -21,16 +21,9 @@ const AboutMeComponent: React.FC = () => {
             <Grid item xs={12} md={6}>
               <div className="info">
                 <p>
-                  Meu nome é Davi Bandeira e sou
-                  <span className="movie-night">Desenvolvedor Full Stack</span>
-                  com sólida experiência em tecnologias modernas, incluindo
-                  Typescript, Angular, React, SQL Server e C#. Minha expertise
-                  abrange tanto o desenvolvimento frontend quanto backend,
-                  permitindo-me criar soluções robustas e escaláveis que atendem
-                  às necessidades dos usuários e clientes. Sou apaixonado por
-                  tecnologia e estou sempre em busca de aprimorar minhas
-                  habilidades e aprender novas ferramentas para oferecer o
-                  melhor em desenvolvimento de software.
+                  My name is Davi Bandeira, I'm a
+                  <span className="movie-night">Full Stack Developer</span>
+                   with solid experience in modern technologies, including Typescript, Angular, React, SQL Server and C#. My expertise spans both frontend and backend development, allowing me to create robust and scalable solutions that meet user and customer needs. I am passionate about technology and am always looking to improve my skills and learn new tools to offer the best in software development.
                 </p>
               </div>
             </Grid>
