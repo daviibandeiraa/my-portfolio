@@ -13,7 +13,7 @@ let theme = createTheme({
     },
     typography: {
         fontFamily: "Montserrat",
-        fontWeightLight: 600,
+        fontWeightLight: 400,
         fontSize: 12,
         
     },
