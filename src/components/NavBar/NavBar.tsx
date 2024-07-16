@@ -9,7 +9,7 @@ import {
 } from "@mui/material"
 
 const NavBar = () => {
-  const StyledToolbar = styled(Toolbar)(({ theme }) => ({
+  const StyledToolbar = styled(Toolbar)(({ }) => ({
     display: "flex",
     justifyContent: "center",
     gapItems: "10px",
@@ -20,6 +20,10 @@ const NavBar = () => {
     fontFamily : "Montserrat",
     fontWeight: 500,
     cursor: "pointer",
+    "&:hover": {
+        color: theme.palette.secondary.main,
+        transition: "color 300ms ease-in-out",
+      },
   }))
 
   return (

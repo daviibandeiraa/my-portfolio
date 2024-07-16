@@ -17,7 +17,7 @@ let theme = createTheme({
         fontSize: 12,
         
     },
-    
+
 });
 
 theme = responsiveFontSizes(theme);
