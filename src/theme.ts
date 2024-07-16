@@ -1,4 +1,5 @@
 import { createTheme, responsiveFontSizes } from "@mui/material";
+import "./components/Styles/Fonts.css"
 
 
 let theme = createTheme({
@@ -11,8 +12,12 @@ let theme = createTheme({
         },
     },
     typography: {
-        // fontFamily: "Roboo",
+        fontFamily: "Montserrat",
+        fontWeightLight: 600,
+        fontSize: 12,
+        
     },
+    
 });
 
 theme = responsiveFontSizes(theme);
