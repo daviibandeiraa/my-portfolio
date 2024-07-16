@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Hero from './sections/Hero/Hero'
 import NavBar from '../../components/NavBar/NavBar'
 
